@@ -4,3 +4,11 @@
 
 layout: home
 ---
+
+<img align="right" width="200" src="../craig.jpg">
+
+Hi, my name is Craig Bridges and I'm a software engineer at Code Change, based in South West England.
+
+I code mostly in C# and my speciality is software architecture, but I'm also interested in machine learning and IoT.
+
+[More about me...](/about/)
