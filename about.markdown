@@ -8,7 +8,7 @@ permalink: /about/
 
 Craig Bridges is a software engineer at Code Change, which is based in Bradford-on-Avon, England.
 
-Craig codes mostly in C# and his speciality is software architecture, but he's also interested in machine learning and IoT. He is a father, middle-distance runner, photographer and philosopher.
+Craig codes mostly in C# and his speciality is software architecture, but he's also interested in machine learning and IoT. He is a father, husband, middle-distance runner, photographer and philosopher.
 
 Many of Craig's photos are published on [Flickr](https://www.flickr.com/photos/bridgethegap/albums). His favourite philosopher is Alan Watts and his preferred racing distance is 800m.
 
@@ -20,3 +20,6 @@ While studying at university, Craig worked at Schools Mailing as an IT Consultan
 In 2011, after nearly 7 years at Schools Mailing, Craig decided it was time for a career break, so he resigned and took a gap year, travelling around Mexico and South America. While travelling, he was working freelance for his current boss at Code Change. He worked on various projects, including an e-commerce platform that he built from scratch using VB.NET and MVC.
 
 Since 2012, Craig has been working full time for Code Change as the lead software engineer. He has since worked on various projects, including e-commerce, e-learning, asset and probate management and more recently compliant insurance and finance within the automotive industry.
+
+## Bridge The Gap?
+The name Bridge The Gap is a sort of play on Craig's surname. The idea is to bridge the learning gap between technology (mostly .NET) and developers. There will always be challenges in the tech world, so the goal of this blog is to provide a little help towards bridging that gap.
