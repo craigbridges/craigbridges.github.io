@@ -52,6 +52,7 @@ Saying that, working on a project as a team has many obvious benefits; productiv
 | More Focus | Each member of the team will have their own strengths and areas of expertise (e.g. backend, frontend, databases, security etc) and in addition to that, will be working on a very specific area of the system, allowing them to stay in that mindset and stay focussed on getting it right. |
 | Availability | The larger the team, the smaller the risk in terms of availability. As a one-man team it's going to be very hard to take time off for holiday etc. But as a team, one person taking some time off usually has a much smaller impact. |
 | Shared Knowledge | In theory, everyone in the team will be aware of what others are working on, how they went about it and what problems they faced. This will usually be done during stand-ups or other team meetings. |
+| Code Reviews | When other members of a team perform code reviews, mistakes or code smells can be spotted more easily. This ensures coding standards are adhered to, knowledge is shared and higher team cohesion is achieved. |
 
 ### Cons
 
