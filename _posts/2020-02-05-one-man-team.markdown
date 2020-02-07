@@ -8,7 +8,7 @@ For most of my career, I have worked as a one-person dev team. I was essentially
 
 It wasn't until relatively recently that I started to work in dev teams of 2 or more people. In fact, our dev team is still quite small at just 6 people (although we plan to increase this to about 8 very soon).
 
-So one of the challenges I faced was adapting to working in teams. This is normally not an issue for most devs/engineers because they would usually start out in a team. Having worked on big projects both on my own and in a team, I have been able to see things from both sides. There are naturally pros and cons of both and I am going to discuss these below.
+One of the challenges I faced was adapting to working within a team. This is normally not an issue for most devs/engineers because they would usually start their careers working in a team. Having worked on big projects both on my own and in a team, I have been able to see things from both sides. There are naturally pros and cons of both and I am going to discuss these below.
 
 ## Working Individually
 
@@ -18,21 +18,24 @@ On the other hand, you have complete control over the entire code base and desig
 
 ### Pros
 
+| Ownership | When you take on a project on your own, it becomes your baby, you can take pride in what you are building and it's very clear that you are making a big impact on the business. This also means you tend to produce a better product. |
 | Low Friction | There will be little to no friction in terms of how to go about implementing a feature or fixing a bug. Also, unless the client has specified precisely what technologies they want you to use (e.g. .NET, SQL Server etc) you pretty much have free reign over how to build the thing, without having to agree every aspect with your team. |
 | Consistency | Adhering to a consistent set of coding standards and development patterns is important with any project. Working individually allows you to ensure complete consistency throughout the code base. |
 | Time Management | It's much easier to manage time on your own. You can predict how long things are going to take more accurately and you can see the bigger picture in your head because you know exactly what you have done and what is left to do. |
 | Fewer Distractions | Once you have your requirements, you can essentially be locked in a room on your own all day and left to it. No one really needs to talk to you or ask you questions. Of course, you will always need to speak with the domain experts, but that will only make up a small portion of your overall time. |
 | Single source of knowledge | You know everything there is to know about the system because you built it from scratch. If anyone has a question or there is a bug, you don't need to correspond with other team members for information. |
 | Higher probability of hitting deadline | I found it much easier to hit deadlines while working on my own. I put that down to being able to better predict how long it would take and also having full control of the entire code base. |
+| Suits Introverts | If your like me and you're more of an introvert, then working on your own can be great, you just plugin and get on with your work and you don't have to spend too much time talking to other people! |
 
 ### Cons
 
-| More Pressure | Taking ownership of an entire project development life cycle adds extra pressure. |
+| More Pressure | Taking ownership of an entire project development life cycle adds extra pressure. You are responsible for the areas you are not really that interested in. If you get stuck on a problem, you are the only one that can fix it. At times it can seem overwhelming when you consider everything you have left to complete. I found it was a big relief once I didn't have to worry about building and maintaining the frontend/UI! |
 | Less Focus | Developers tend to have their own specialties. An obvious split would be between frontend and backend development. When are you working on everything at the same time, you are going to have a bias towards one or the other. When I was working on my own, I tended to treat the UI as an afterthought and partial waste of my time, so I tended to do the fastest, simplest thing to get it working. |
-| Availability | If your not available, because perhaps you are sick or on holiday, then that can cause a big problem. |
+| Availability | If your not available, because perhaps you are sick or on holiday, then that can cause a big problem. Also, if you do take sick leave or holiday, it's hard to separate yourself from the project you are working on. It's always there in the back of your mind, causing unnecessary anxiety. |
 | Single source of knowledge | While this can be an advantage, it has one big flaw - you are the **only** source of knowledge, so if there is a problem and you are not available or you leave the company, there is no one else who can help. I would say this problem outweighs any advantage there is of knowing everything about the system. |
 | Easy to get into bad practices | I'm an advocate of following good coding practices, good architecture and paying attention to detail. So, when I've worked on projects alone, I still follow these principles. However, not everyone is the same. Many developers will get into the trap of 'it's only a small project, how complex can it get?' or 'just get this out the door and I'll never have to touch it again', when we know that in reality this is never the case. |
 | Problem Solving | What happens when you are stuck on a problem? Google and Stack Overflow are a developers best friend, but sometimes you just need the help of someone who has experienced a similar issue, or just sees the problem in a different way. |
+| [Burnout](https://dev.to/daraghbyrne/developer-burnout-is-real-2f0p) | When taking on so much work it's not uncommon to experience burnout. I've experienced it a few times in my career and it's hard to get motivated again once you recover. |
 
 ## Working in a Team
 
@@ -56,10 +59,12 @@ Saying that, working on a project as a team has many obvious benefits; productiv
 | Lower Individual Productivity | While as a team, your output has increased, individually you are almost certainly going to be less productive. You have more meetings to attend, more red tape and generally less control over certain aspects, restricting your options. |
 | Team Management | It's hard to get a team to be effective, it requires structure, patience, cooperation and understanding. We are all human and sometimes it's not easy. On top of that you have to manage everything around the work the team are actually doing (time logging, planning etc). A popular approach to dev team management these days is the Agile method - but again it's hard to implement correctly. |
 | Meetings | Inevitably, the larger the team, the more meetings you are going to need - and no one likes meetings! |
+| Lack of ownership | The larger the team, the smaller your impact on the end product is likely to be (of course, it depends on what your role is and exactly what features you work on). It's easy to feel like you are just a cog in the system. Many devs can work on features that are never seen by anyone except the people that work on them. It's easier to not really care much about the product you are working on and that can have a negative impact on the quality of your code. |
+| Less suited to introverts | Unlike working on your own, in a team you will need to communicate regularly with other team members. This won't appeal to an introverted person so much. |
 
 ## Conclusion
 
-I don't think anyone can say it's always best to work individually or in teams for all scenarios. It was certainly much more effective and productive working individually when I did. The fact that I was playing the role of about 3 or 4 different jobs at the same time had it's pros and cons, but it was financially a better business decision at the time.
+I don't think anyone can say it's always best to work individually or in teams for all scenarios. It was certainly much more effective and productive working individually when I did. The fact that I was playing the role of about 3 or 4 different jobs concurrently had it's pros and cons, but it was financially a better business decision at the time.
 
 However, with the current projects we are working on, it would be impossible to manage those on my own. I would be completely overwhelmed by the quantity of work and lack of front end skills.
 
