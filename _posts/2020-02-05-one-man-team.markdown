@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "The pros and cons of being a one-person dev team"
+title:  "The Pros and Cons of Being a One-person Dev Team"
 date:   2020-02-05 20:00:00 +0000
-categories: teams productivity
+categories: Teams Productivity
 ---
 For most of my career, I have worked as a one-person dev team. I was essentially a full stack developer before I had even heard of the title!
 
