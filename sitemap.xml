@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://craigbridges.dev/</loc>
+    <lastmod>2020-02-13T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/post/</loc>
+    <lastmod>2020-02-13T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/post/useful-value-objects/</loc>
+    <lastmod>2020-02-13T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/post/one-person-team/</loc>
+    <lastmod>2020-02-05T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/about/</loc>
+    <lastmod>2020-02-05T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/test/</loc>
+    <lastmod>2020-02-05T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/tags/</loc>
+  </url>
+  
+</urlset>
