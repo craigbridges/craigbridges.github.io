@@ -3,32 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://craigbridges.dev/</loc>
+    <lastmod>2020-02-24T20:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/post/how-to-be-productive/</loc>
+    <lastmod>2020-02-24T20:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/post/</loc>
+    <lastmod>2020-02-24T20:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/tags/productivity/</loc>
+    <lastmod>2020-02-24T20:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/tags/</loc>
+    <lastmod>2020-02-24T20:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/tags/tooling/</loc>
+    <lastmod>2020-02-24T20:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/tags/training/</loc>
+    <lastmod>2020-02-24T20:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://craigbridges.dev/tags/.net/</loc>
     <lastmod>2020-02-13T18:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://craigbridges.dev/</loc>
-    <lastmod>2020-02-13T18:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://craigbridges.dev/tags/csharp/</loc>
-    <lastmod>2020-02-13T18:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://craigbridges.dev/post/</loc>
-    <lastmod>2020-02-13T18:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://craigbridges.dev/tags/productivity/</loc>
-    <lastmod>2020-02-13T18:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://craigbridges.dev/tags/</loc>
     <lastmod>2020-02-13T18:00:00+00:00</lastmod>
   </url>
   

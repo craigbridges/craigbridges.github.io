@@ -6,10 +6,20 @@
     <description>Recent content in Productivity on Bridge The Gap</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 13 Feb 2020 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 20:30:00 +0000</lastBuildDate>
     
 	<atom:link href="https://craigbridges.dev/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Be a Productive Dev</title>
+      <link>https://craigbridges.dev/post/how-to-be-productive/</link>
+      <pubDate>Mon, 24 Feb 2020 20:30:00 +0000</pubDate>
+      
+      <guid>https://craigbridges.dev/post/how-to-be-productive/</guid>
+      <description>For this post I&amp;rsquo;m going to explore some of the ways that have helped me and may help you become more a productive dev. I&amp;rsquo;m not going to talk about practices such as Agile, Scrum or DevOps because those are focussed on teams. In this post I want to focus on the individual developer and how they can improve their own productivity.
+The Developer Let&amp;rsquo;s start with the obvious, but often overlooked (and most important) area, the developer.</description>
+    </item>
     
     <item>
       <title>Useful Value Objects</title>
