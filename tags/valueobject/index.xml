@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ValueObject on Bridge The Gap</title>
+    <link>https://craigbridges.dev/tags/valueobject/</link>
+    <description>Recent content in ValueObject on Bridge The Gap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 13 Feb 2020 18:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://craigbridges.dev/tags/valueobject/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Useful Value Objects</title>
+      <link>https://craigbridges.dev/post/useful-value-objects/</link>
+      <pubDate>Thu, 13 Feb 2020 18:00:00 +0000</pubDate>
+      
+      <guid>https://craigbridges.dev/post/useful-value-objects/</guid>
+      <description>I&amp;rsquo;ve recently started working on a greenfield project to replace an existing platform we have. When starting new projects in recent years I&amp;rsquo;ve applied more of a pure DDD (Domain Driven Design) architectural approach. One of the fundamental ideas within DDD is the ValueObject, a term coined by Martin Fowler. There is a great article about implementing value objects that you should check out if you&amp;rsquo;re not familiar with them.</description>
+    </item>
+    
+  </channel>
+</rss>

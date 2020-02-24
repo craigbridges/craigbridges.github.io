@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://craigbridges.dev/tags/.net/</loc>
+    <lastmod>2020-02-13T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://craigbridges.dev/</loc>
+    <lastmod>2020-02-13T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/tags/csharp/</loc>
     <lastmod>2020-02-13T18:00:00+00:00</lastmod>
   </url>
   
@@ -13,8 +23,28 @@
   </url>
   
   <url>
+    <loc>https://craigbridges.dev/tags/productivity/</loc>
+    <lastmod>2020-02-13T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/tags/</loc>
+    <lastmod>2020-02-13T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://craigbridges.dev/post/useful-value-objects/</loc>
     <lastmod>2020-02-13T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/tags/valueobject/</loc>
+    <lastmod>2020-02-13T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/tags/teams/</loc>
+    <lastmod>2020-02-05T20:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -34,10 +64,6 @@
   
   <url>
     <loc>https://craigbridges.dev/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://craigbridges.dev/tags/</loc>
   </url>
   
 </urlset>

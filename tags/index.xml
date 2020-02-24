@@ -6,9 +6,55 @@
     <description>Recent content in Tags on Bridge The Gap</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
+    <lastBuildDate>Thu, 13 Feb 2020 18:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://craigbridges.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>.NET</title>
+      <link>https://craigbridges.dev/tags/.net/</link>
+      <pubDate>Thu, 13 Feb 2020 18:00:00 +0000</pubDate>
+      
+      <guid>https://craigbridges.dev/tags/.net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSharp</title>
+      <link>https://craigbridges.dev/tags/csharp/</link>
+      <pubDate>Thu, 13 Feb 2020 18:00:00 +0000</pubDate>
+      
+      <guid>https://craigbridges.dev/tags/csharp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Productivity</title>
+      <link>https://craigbridges.dev/tags/productivity/</link>
+      <pubDate>Thu, 13 Feb 2020 18:00:00 +0000</pubDate>
+      
+      <guid>https://craigbridges.dev/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ValueObject</title>
+      <link>https://craigbridges.dev/tags/valueobject/</link>
+      <pubDate>Thu, 13 Feb 2020 18:00:00 +0000</pubDate>
+      
+      <guid>https://craigbridges.dev/tags/valueobject/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teams</title>
+      <link>https://craigbridges.dev/tags/teams/</link>
+      <pubDate>Wed, 05 Feb 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://craigbridges.dev/tags/teams/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
