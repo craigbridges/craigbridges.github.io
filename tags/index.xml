@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Bridge The Gap</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 24 Feb 2020 20:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2020 20:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://craigbridges.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>.NET</title>
+      <link>https://craigbridges.dev/tags/.net/</link>
+      <pubDate>Mon, 13 Apr 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://craigbridges.dev/tags/.net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.NET Core 3</title>
+      <link>https://craigbridges.dev/tags/.net-core-3/</link>
+      <pubDate>Mon, 13 Apr 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://craigbridges.dev/tags/.net-core-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BadImageFormatException</title>
+      <link>https://craigbridges.dev/tags/badimageformatexception/</link>
+      <pubDate>Mon, 13 Apr 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://craigbridges.dev/tags/badimageformatexception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bug</title>
+      <link>https://craigbridges.dev/tags/bug/</link>
+      <pubDate>Mon, 13 Apr 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://craigbridges.dev/tags/bug/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Productivity</title>
@@ -35,15 +71,6 @@
       <pubDate>Mon, 24 Feb 2020 20:30:00 +0000</pubDate>
       
       <guid>https://craigbridges.dev/tags/training/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>.NET</title>
-      <link>https://craigbridges.dev/tags/.net/</link>
-      <pubDate>Thu, 13 Feb 2020 18:00:00 +0000</pubDate>
-      
-      <guid>https://craigbridges.dev/tags/.net/</guid>
       <description></description>
     </item>
     

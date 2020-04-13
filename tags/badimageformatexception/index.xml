@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BadImageFormatException on Bridge The Gap</title>
+    <link>https://craigbridges.dev/tags/badimageformatexception/</link>
+    <description>Recent content in BadImageFormatException on Bridge The Gap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 13 Apr 2020 20:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://craigbridges.dev/tags/badimageformatexception/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.NET Core 3: &#39;Bad IL format&#39;</title>
+      <link>https://craigbridges.dev/post/bad-il-format/</link>
+      <pubDate>Mon, 13 Apr 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://craigbridges.dev/post/bad-il-format/</guid>
+      <description>We have recently been migrating our compliance platform from .NET 4.7 to .NET Core 3.
+The existing code uses Autofac to manage inversion of control and we wanted to stick with it for now, instead of using the built-in DI middleware that comes packaged with .NET Core 3.
+Part of the Autofac container building process involves scanning assemblies within the bin folder for plugins. The existing code contained a section that looked something like:</description>
+    </item>
+    
+  </channel>
+</rss>

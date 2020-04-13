@@ -6,10 +6,21 @@
     <description>Recent content on Bridge The Gap</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 24 Feb 2020 20:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://craigbridges.dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>.NET Core 3: &#39;Bad IL format&#39;</title>
+      <link>https://craigbridges.dev/post/bad-il-format/</link>
+      <pubDate>Mon, 13 Apr 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://craigbridges.dev/post/bad-il-format/</guid>
+      <description>We have recently been migrating our compliance platform from .NET 4.7 to .NET Core 3.
+The existing code uses Autofac to manage inversion of control and we wanted to stick with it for now, instead of using the built-in DI middleware that comes packaged with .NET Core 3.
+Part of the Autofac container building process involves scanning assemblies within the bin folder for plugins. The existing code contained a section that looked something like:</description>
+    </item>
     
     <item>
       <title>How to Be a Productive Dev</title>
@@ -31,7 +42,7 @@ The Developer Let&amp;rsquo;s start with the obvious, but often overlooked (and 
     </item>
     
     <item>
-      <title>The Pros and Cons of Being a One-person Dev Team</title>
+      <title>Pros and Cons of Being a One-person Dev Team</title>
       <link>https://craigbridges.dev/post/one-person-team/</link>
       <pubDate>Wed, 05 Feb 2020 20:00:00 +0000</pubDate>
       

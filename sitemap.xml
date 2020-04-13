@@ -3,8 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://craigbridges.dev/</loc>
-    <lastmod>2020-02-24T20:30:00+00:00</lastmod>
+    <loc>https://craigbridges.dev/tags/.net/</loc>
+    <lastmod>2020-04-13T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/tags/.net-core-3/</loc>
+    <lastmod>2020-04-13T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/post/bad-il-format/</loc>
+    <lastmod>2020-04-13T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/tags/badimageformatexception/</loc>
+    <lastmod>2020-04-13T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/tags/bug/</loc>
+    <lastmod>2020-04-13T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/post/</loc>
+    <lastmod>2020-04-13T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/tags/</loc>
+    <lastmod>2020-04-13T20:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,17 +43,7 @@
   </url>
   
   <url>
-    <loc>https://craigbridges.dev/post/</loc>
-    <lastmod>2020-02-24T20:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://craigbridges.dev/tags/productivity/</loc>
-    <lastmod>2020-02-24T20:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://craigbridges.dev/tags/</loc>
     <lastmod>2020-02-24T20:30:00+00:00</lastmod>
   </url>
   
@@ -35,11 +55,6 @@
   <url>
     <loc>https://craigbridges.dev/tags/training/</loc>
     <lastmod>2020-02-24T20:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://craigbridges.dev/tags/.net/</loc>
-    <lastmod>2020-02-13T18:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -58,17 +73,22 @@
   </url>
   
   <url>
-    <loc>https://craigbridges.dev/tags/teams/</loc>
-    <lastmod>2020-02-05T20:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://craigbridges.dev/post/one-person-team/</loc>
     <lastmod>2020-02-05T20:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://craigbridges.dev/tags/teams/</loc>
+    <lastmod>2020-02-05T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://craigbridges.dev/about/</loc>
+    <lastmod>2020-02-05T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://craigbridges.dev/</loc>
     <lastmod>2020-02-05T12:00:00+00:00</lastmod>
   </url>
   

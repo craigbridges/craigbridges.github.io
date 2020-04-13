@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Hugo 0.64.1" />
+  <meta name="generator" content="Hugo 0.65.2" />
 
   <title>Bridge The Gap | Software Engineering</title>
 
@@ -126,6 +126,26 @@
   <div class="posts">
   <article class="post">
       <h1 class="post-title">
+        <a href="https://craigbridges.dev/post/bad-il-format/">.NET Core 3: &#39;Bad IL format&#39;</a>
+      </h1>
+
+      <div class="post-date">
+        <time datetime="2020-04-13T20:00:00Z">Apr 13, 2020</time> · 3 min read
+      </div>
+
+      
+        We have recently been migrating our compliance platform from .NET 4.7 to .NET Core 3.
+The existing code uses Autofac to manage inversion of control and we wanted to stick with it for now, instead of using the built-in DI middleware that comes packaged with .NET Core 3.
+Part of the Autofac container building process involves scanning assemblies within the bin folder for plugins. The existing code contained a section that looked something like:
+      
+
+      
+      <div class="read-more-link">
+        <a href="/post/bad-il-format/">Read More</a>
+      </div>
+      
+    </article><article class="post">
+      <h1 class="post-title">
         <a href="https://craigbridges.dev/post/how-to-be-productive/">How to Be a Productive Dev</a>
       </h1>
 
@@ -163,7 +183,7 @@ The Developer Let&rsquo;s start with the obvious, but often overlooked (and most
       
     </article><article class="post">
       <h1 class="post-title">
-        <a href="https://craigbridges.dev/post/one-person-team/">The Pros and Cons of Being a One-person Dev Team</a>
+        <a href="https://craigbridges.dev/post/one-person-team/">Pros and Cons of Being a One-person Dev Team</a>
       </h1>
 
       <div class="post-date">
