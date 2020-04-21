@@ -172,7 +172,7 @@ assemblies.AddRange
 );
 </code></pre></div><p>This code had been working fine for the past 2 years, so when I ran the .NET Core 3 version and received the following exception, it stumped me for a while:</p>
 <pre><code>System.BadImageFormatException: 'Bad IL format.'
-</code></pre><p>At first I thought I might have some old DLLs left over from the .NET 4.6 build, so I deleted all bin and obj folders then tried again - to no avail. A quick Google search lead me to this <a href="https://stackoverflow.com/questions/51080797/bad-il-format-strange-net-error">Stack Overflow question</a>. It suggests three possible fixes:</p>
+</code></pre><p>At first I thought I might have some old DLLs left over from the .NET 4.7 build, so I deleted all bin and obj folders then tried again - to no avail. A quick Google search lead me to this <a href="https://stackoverflow.com/questions/51080797/bad-il-format-strange-net-error">Stack Overflow question</a>. It suggests three possible fixes:</p>
 <ol>
 <li>If your application uses 32-bit components, make sure that it always runs as a 32-bit application.</li>
 <li>Make sure that you are not using a component that was created with a different version of the .NET Framework.</li>
@@ -181,7 +181,9 @@ assemblies.AddRange
 <p>I tried changing the platform target on the .NET Core 3 project from <strong>AnyCPU</strong> to 32-bit and then 64-bit, but both made no difference. I was confident that points 2 and 3 were covered because I had updated all NuGet packages and the code as only scanning for .dll files.</p>
 <p>The next thing I tried was creating a new Git branch and then converting the project to .NET Core 2.2 (the latest version before 3.0). I cleaned the bin folders and ran the project - it worked!</p>
 <p>So I was able to determine that it was a problem specific to .NET Core 3. I took a closer look at the generated bin folder for .NET Core 3 and noticed one difference from the other framework versions - a folder named <strong>runtimes</strong>.</p>
-<p>If you notice in the code snippet above, I set the searchOption parameter to <strong>SearchOption.AllDirectories</strong>. Within the runtimes folder there are a cocktail of DLLs built for x86 and x64 architectures and debugging the above code confirmed that it was these DLLs (which I didn&rsquo;t need to scan anyway) that were causing the problem.</p>
+<p>If you notice in the code snippet above, I set the searchOption parameter to:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#">SearchOption.AllDirectories
+</code></pre></div><p>Within the runtimes folder there are a cocktail of DLLs built for x86 and x64 architectures and debugging the above code confirmed that it was these DLLs (which I didn&rsquo;t need to scan anyway) that were causing the problem.</p>
 <p>I looked into this and discovered that applications created in .NET Core can be published in two different modes; <a href="https://docs.microsoft.com/en-us/dotnet/core/deploying/">self-contained and runtime-dependent</a>. By default, it seems they are published as self-contained (which creates the runtimes folder). I didn&rsquo;t want to change this behaviour, so I fixed it by simply changing the searchOptions parameter to:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#">SearchOption.TopDirectoryOnly
 </code></pre></div><p>This ensures that only the DLLs contained in the bin folder (<strong>not</strong> sub folders) are scanned.</p>
