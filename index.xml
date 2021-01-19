@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Introducing Paginator.NET</title>
+      <link>https://craigbridges.dev/post/paginator.net/</link>
+      <pubDate>Tue, 19 Jan 2021 15:00:00 +0000</pubDate>
+      
+      <guid>https://craigbridges.dev/post/paginator.net/</guid>
+      <description>There are many existing pagination solutions for UI frameworks, but few solutions for paginating data in memory within the .NET runtime environment. In many use cases data sets are filtered down to a small size before they are even fetched from the database. However, sometimes we might need APIs that could potentially return large sets of data. For example, a search tool could return hundreds or even thousands of matches, and in this scenario it would be useful to get the data from the database one page at a time.</description>
+    </item>
+    
+    <item>
       <title>.NET Core 3: &#39;Bad IL format&#39;</title>
       <link>https://craigbridges.dev/post/bad-il-format/</link>
       <pubDate>Mon, 13 Apr 2020 20:00:00 +0000</pubDate>

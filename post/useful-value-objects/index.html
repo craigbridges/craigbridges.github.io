@@ -182,11 +182,7 @@
 {
     <span style="color:#66d9ef">private</span> DateRange() { }
 
-    <span style="color:#66d9ef">private</span> DateRange
-        (
-            DateTime startDate,
-            DateTime? endDate = <span style="color:#66d9ef">null</span>
-        )
+    <span style="color:#66d9ef">private</span> DateRange(DateTime startDate, DateTime? endDate = <span style="color:#66d9ef">null</span>)
     {
         <span style="color:#66d9ef">this</span>.StartDate = startDate;
         <span style="color:#66d9ef">this</span>.EndDate = endDate ?? DateTime.MaxValue;
@@ -264,10 +260,7 @@
         <span style="color:#66d9ef">this</span>.Host = parts[<span style="color:#ae81ff">1</span>];
     }
 
-    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> Result&lt;Email&gt; Create
-        (
-            <span style="color:#66d9ef">string</span> email
-        )
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> Result&lt;Email&gt; Create(<span style="color:#66d9ef">string</span> email)
     {
         <span style="color:#66d9ef">if</span> (String.IsNullOrWhiteSpace(email))
         {
@@ -333,10 +326,7 @@
         <span style="color:#66d9ef">this</span>.Host = uri.Host;
     }
 
-    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> Result&lt;WebAddress&gt; Create
-        (
-            <span style="color:#66d9ef">string</span> url
-        )
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> Result&lt;WebAddress&gt; Create(<span style="color:#66d9ef">string</span> url)
     {
         <span style="color:#66d9ef">if</span> (String.IsNullOrWhiteSpace(url))
         {
@@ -346,11 +336,7 @@
             );
         }
 
-        <span style="color:#66d9ef">var</span> isValid = Uri.IsWellFormedUriString
-        (
-            url,
-            UriKind.Absolute
-        );
+        <span style="color:#66d9ef">var</span> isValid = Uri.IsWellFormedUriString(url, UriKind.Absolute);
 
         <span style="color:#66d9ef">if</span> (isValid)
         {
@@ -420,17 +406,8 @@
             <span style="color:#66d9ef">string</span> suffix = <span style="color:#66d9ef">null</span>
         )
     {
-        <span style="color:#66d9ef">var</span> allNames = <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">string</span>[]
-        {
-            firstName,
-            middleName,
-            lastName
-        };
-
-        <span style="color:#66d9ef">var</span> allEmpty = allNames.All
-        (
-            name =&gt; String.IsNullOrWhiteSpace(name)
-        );
+        <span style="color:#66d9ef">var</span> allNames = <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">string</span>[] {firstName, middleName, lastName};
+        <span style="color:#66d9ef">var</span> allEmpty = allNames.All(name =&gt; String.IsNullOrWhiteSpace(name));
 
         <span style="color:#66d9ef">if</span> (allEmpty)
         {
@@ -471,12 +448,7 @@
     {
         <span style="color:#66d9ef">get</span>
         {
-            <span style="color:#66d9ef">return</span> Concat
-            (
-                <span style="color:#66d9ef">this</span>.FirstName,
-                <span style="color:#66d9ef">this</span>.MiddleName,
-                <span style="color:#66d9ef">this</span>.LastName
-            );
+            <span style="color:#66d9ef">return</span> Concat(<span style="color:#66d9ef">this</span>.FirstName, <span style="color:#66d9ef">this</span>.MiddleName, <span style="color:#66d9ef">this</span>.LastName);
         }
     }
 
@@ -503,10 +475,7 @@
 </span><span style="color:#75715e"></span>    <span style="color:#75715e">/// &lt;/summary&gt;
 </span><span style="color:#75715e"></span>    <span style="color:#75715e">/// &lt;param name=&#34;words&#34;&gt;The words to concatenate&lt;/param&gt;
 </span><span style="color:#75715e"></span>    <span style="color:#75715e">/// &lt;returns&gt;The concatenated string&lt;/returns&gt;
-</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">string</span> Concat
-        (
-            <span style="color:#66d9ef">params</span> <span style="color:#66d9ef">string</span>[] words
-        )
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">string</span> Concat(<span style="color:#66d9ef">params</span> <span style="color:#66d9ef">string</span>[] words)
     {
         <span style="color:#66d9ef">var</span> builder = <span style="color:#66d9ef">new</span> StringBuilder();
 
@@ -551,10 +520,7 @@
         <span style="color:#66d9ef">this</span>.Number = number.Trim();
     }
 
-    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> Result&lt;PhoneNumber&gt; Create
-        (
-            <span style="color:#66d9ef">string</span> number
-        )
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> Result&lt;PhoneNumber&gt; Create(<span style="color:#66d9ef">string</span> number)
     {
         <span style="color:#66d9ef">var</span> isValid = <span style="color:#66d9ef">true</span>;
         <span style="color:#66d9ef">var</span> failureMessage = String.Empty;
@@ -579,10 +545,7 @@
         }
         <span style="color:#66d9ef">else</span>
         {
-            <span style="color:#66d9ef">return</span> Result.Failure&lt;PhoneNumber&gt;
-            (
-                failureMessage
-            );
+            <span style="color:#66d9ef">return</span> Result.Failure&lt;PhoneNumber&gt;(failureMessage);
         }
     }
 
@@ -618,7 +581,7 @@
 
   <footer>
   <div class="copyright">
-    &copy; Craig Bridges 2020 · 
+    &copy; Craig Bridges 2021 · 
   </div>
 </footer>
 

@@ -166,10 +166,7 @@ Part of the Autofac container building process involves scanning assemblies with
     SearchOption.AllDirectories
 );
 
-assemblies.AddRange
-(
-	assemblyNames.Select(Assembly.LoadFrom)
-);
+assemblies.AddRange(assemblyNames.Select(Assembly.LoadFrom));
 </code></pre></div><p>This code had been working fine for the past 2 years, so when I ran the .NET Core 3 version and received the following exception, it stumped me for a while:</p>
 <pre><code>System.BadImageFormatException: 'Bad IL format.'
 </code></pre><p>At first I thought I might have some old DLLs left over from the .NET 4.7 build, so I deleted all bin and obj folders then tried again - to no avail. A quick Google search lead me to this <a href="https://stackoverflow.com/questions/51080797/bad-il-format-strange-net-error">Stack Overflow question</a>. It suggests three possible fixes:</p>
@@ -207,7 +204,7 @@ assemblies.AddRange
 
   <footer>
   <div class="copyright">
-    &copy; Craig Bridges 2020 · 
+    &copy; Craig Bridges 2021 · 
   </div>
 </footer>
 
